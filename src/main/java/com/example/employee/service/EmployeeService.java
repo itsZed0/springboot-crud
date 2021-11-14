@@ -14,7 +14,7 @@ public class EmployeeService {
 	@Autowired
     EmployeeRepository empRepository;
 	
-	//CREATE 
+	//CREATE
 	public Employee createEmployee(Employee emp) {
 	    return empRepository.save(emp);
 	}
